@@ -4,7 +4,7 @@
 	--personal: #ff6f3c;
 	--light: #EEE;
 	--grey: #888;
-	--dark: #313154;
+	--dark: #665294;
 	--danger: #d63447;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 input:not([type="radio"]):not([type="checkbox"]), button {
@@ -32,10 +32,17 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 /* End of Resets */
 
 body {
-	background: var(--light);
-	color: var(--dark);
+	/* background: #3e4a61; */
+	/* color: var(--dark); */
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
+.app {
+	border-radius: 20px;
+	background: var(--dark);
+}
 section {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -44,7 +51,7 @@ section {
 }
 
 h3 {
-	color: var(--dark);
+	color: var(--light);
 	font-size: 1rem;
 	font-weight: 400;
 	margin-bottom: 0.5rem;
@@ -69,7 +76,7 @@ h4 {
 
 .greeting .title, 
 .greeting .title input {
-	color: var(--dark);
+	color: var(--light);
 	font-size: 1.5rem;
 	font-weight: 700;
 }

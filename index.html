@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=EB+Garamond:ital@1&family=Epilogue:wght@300&family=Fredoka&family=Kanit:wght@300&family=Lato:ital,wght@0,400;1,300;1,400&family=Lobster&family=Montserrat:wght@200&family=PT+Sans&family=Poppins:wght@200&family=Quicksand:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Spline+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/stylesheet.css" />
     <title>To Do List</title>
   </head>
@@ -13,7 +19,7 @@
       <!-- Greeting -->
       <section class="greeting">
         <h2 class="title">
-          Hi there, <input type="text" id="name" placeholder="Name here" />
+          Hi there, <input type="text" id="name" placeholder="Enter Name..." />
         </h2>
       </section>
       <!-- End of Greeting -->
@@ -21,7 +27,6 @@
       <!-- New Todo -->
       <section class="create-todo">
         <form id="new-todo-form">
-          <h4>What are your task today?</h4>
           <input
             type="text"
             placeholder="Enter task here..."
@@ -60,7 +65,7 @@
 
       <!-- Todo List -->
       <section class="todo-list">
-        <h3>YOUR LIST</h3>
+        <h3>My List</h3>
         <div class="list" id="todo-list"></div>
       </section>
       <!-- End of Todo List -->
